@@ -3,7 +3,7 @@ const AUFGameMock = require('../mocks/AUFGameMock');
 const config = require('../../config.json');
 const Player = require('../../domain/Player');
 const roles = require('../../domain/enum/Role');
-const VoteType = require('../../../common/enum/Vote');
+const VoteType = require('../../common/enum/Vote');
 
 describe('trial-start unit tests', () => {
     const port = process.env.PORT || config.local_port;

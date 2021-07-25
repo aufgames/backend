@@ -5,7 +5,7 @@ const PlayerStatus = require('../../domain/enum/PlayerStatus');
 const TrialStartDTO = require('../../domain/dto/response/DayStartDTO');
 const TrialEndDTO = require('../../domain/dto/response/TrialEndDTO');
 const GameOverDTO = require('../../domain/dto/response/GameOverDTO');
-const VoteType = require('../../../common/enum/Vote');
+const VoteType = require('../../common/enum/Vote');
 
 /**
  * Event handlers and logic for `start-trial`
